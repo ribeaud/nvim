@@ -8,5 +8,13 @@ return {
         require("telescope").load_extension("fzf")
       end,
     },
+    opts = {
+      pickers = {
+        live_grep = {
+          additional_args = { "--hidden" },
+        },
+      },
+    },
   },
 }
+
